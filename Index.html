@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DHAKAR Technologies | Next-Gen Automation & Visualization</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">DHAKAR <span>Technologies</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#video-showcase">Showcase</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#plugins">Plugins & Tools</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="#contact" class="btn-primary">Get in Touch</a>
+    </nav>
+
+    <!-- Hero Section with Background Image -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>Next-Gen Factory Automation & Digitalization</h1>
+            <p>Bridging the physical and digital worlds with advanced immersive technology, real-time sensor integration, and high-fidelity architectural visualization.</p>
+            <div class="hero-buttons">
+                <a href="#services" class="btn-primary">Explore Services</a>
+                <a href="#plugins" class="btn-secondary">View Plugins</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Featured Video Section -->
+    <section id="video-showcase" class="video-section">
+        <div class="section-header">
+            <h2>Featured Implementation</h2>
+            <p>Watch our enterprise Video SOI and digital twin solutions in action.</p>
+        </div>
+        <div class="video-container">
+            <video controls poster="Data/images/SOI.jpg">
+                <source src="Data/Video/soi.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+
+    <!-- Video Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="section-header">
+            <h2>Project Portfolio</h2>
+            <p>Explore our recent work in industrial digitalization, architectural mapping, and immersive VR.</p>
+        </div>
+        
+        <div class="portfolio-grid">
+            <!-- Portfolio Item 1 -->
+            <div class="portfolio-card">
+                <div class="video-wrapper">
+                    <video controls poster="Data/images/indus.jpg">
+                        <source src="Data/Video/SOIEngine.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="portfolio-info">
+                    <h3>Video SOI Integration</h3>
+                    <p>Real-time Standard Operating Instructions deployed for complex assembly training.</p>
+                </div>
+            </div>
+
+            <!-- Portfolio Item 2 -->
+            <div class="portfolio-card">
+                <div class="video-wrapper">
+                    <video controls poster="Data/images/interior.jpg">
+                        <source src="Data/Video/interior video ppt.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="portfolio-info">
+                    <h3>Interior customization</h3>
+                    <p>Complete 3D architectural visualization featuring dynamic interior design with multiple design choices</p>
+                </div>
+            </div>
+
+            <!-- Portfolio Item 3 -->
+            <div class="portfolio-card">
+                <div class="video-wrapper">
+                    <video controls poster="Data/images/DT.jpg">
+                        <source src="Data/Video/Project 8 - Scene 0.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="portfolio-info">
+                    <h3>Smart Fixture Database Reader</h3>
+                    <p>C# scripting in Unity demonstrating live sensor data fetching and visualization from remote SQLite databases.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="section-header">
+            <h2>Our Core Expertise</h2>
+            <p>Delivering cutting-edge solutions for industry, real estate, and enterprise.</p>
+        </div>
+        <div class="grid-container">
+            <div class="card">
+                <img src="Data/images/IndustrialDIGI.jpg" alt="Industrial Digitalization" class="card-image">
+                <div class="card-icon">⚙️</div>
+                <h3>Industrial Digitalization</h3>
+                <p>Developing robust digital twins and smart fixture systems. We integrate sensors and LiDAR for precise real-time state detection in factory settings, alongside seamless SQLite database reading.</p>
+            </div>
+            <div class="card">
+                <img src="Data/images/Arcta.jpg" alt="Architectural Visualization" class="card-image">
+                <div class="card-icon">🏗️</div>
+                <h3>Architectural Visualization</h3>
+                <p>Delivering interactive 3D visualizations and proposals tailored for builder clients. We create comprehensive 2D and 3D layouts for large-scale properties, from industrial facilities to expansive resorts.</p>
+            </div>
+            <div class="card">
+                <img src="Data/images/ImersiveAR.jpg" alt="Immersive Tech and VR" class="card-image">
+                <div class="card-icon">🥽</div>
+                <h3>Immersive Tech & VR</h3>
+                <p>Deploying interactive Standard Operating Instructions (SOI) using Unreal Engine and Unity 3D. We specialize in robust VR integration via AF Core for enterprise-level training and operations.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plugins Section -->
+    <section id="plugins" class="plugins">
+        <div class="section-header">
+            <h2>Software & Plugins</h2>
+            <p>Accelerate your workflow with our proprietary enterprise tools.</p>
+        </div>
+        <div class="grid-container">
+            <div class="card product-card">
+                <h3>Industrial SOI Plugin</h3>
+                <p>A specialized toolset designed to streamline the creation and deployment of interactive Standard Operating Instructions. Successfully deployed to over 15 enterprise clients with proven reliability.</p>
+                <span class="price">Enterprise License</span>
+                <a href="#" class="btn-primary small-btn">Inquire Now</a>
+            </div>
+            <div class="card product-card">
+                <h3>Smart Fixture Data Reader</h3>
+                <p>A Unity-based C# script package that seamlessly fetches and visualizes real-time sensor and state detection data from local or remote databases.</p>
+                <span class="price">$149.00</span>
+                <a href="#" class="btn-primary small-btn">Buy Plugin</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-info">
+                <h2>DHAKAR Technologies</h2>
+                <p>Pioneering the future of industrial visualization and automation.</p>
+            </div>
+            <div class="footer-contact">
+                <p>Email: contact@dhakar.in</p>
+                <p>Location: Gwalior, MP, India</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 DHAKAR Technologies. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
