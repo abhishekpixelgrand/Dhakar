@@ -123,7 +123,7 @@ p {
     padding: 0 5%;
     
     /* ADDED: Background Image + Dark Overlay for Text Readability */
-    background-image: linear-gradient(rgba(10, 15, 22, 0.85), rgba(10, 15, 22, 0.95)), url('data/images/Hero.jpg');
+    background-image: linear-gradient(rgba(10, 15, 22, 0.85), rgba(10, 15, 22, 0.95)), url('./Data/Images/Hero.jpg');
     
     /* ADDED: Styling to ensure image covers entire area nicely */
     background-size: cover;
