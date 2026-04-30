@@ -323,21 +323,53 @@ footer {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    /* 1. Stop horizontal scrolling */
+    body, html {
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    /* 2. Hide desktop menu (can add a hamburger menu later) */
     .nav-links {
         display: none; 
     }
     
+    /* 3. Shrink massive text for small screens */
     .hero h1 {
-        font-size: 2.5rem;
+        font-size: 2rem; /* Reduced from 3.5rem */
+        margin-top: 2rem;
     }
     
+    .hero p {
+        font-size: 1rem;
+    }
+    
+    /* 4. Stack buttons vertically */
     .hero-buttons {
         flex-direction: column;
+        width: 100%;
     }
-}
 
-@media (max-width: 480px) {
+    .hero-buttons a {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* 5. Force all grids into a single column */
+    .grid-container, 
     .portfolio-grid {
         grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    /* 6. Reduce massive padding on sections */
+    section {
+        padding: 4rem 0;
+    }
+
+    /* 7. Stack footer elements */
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
     }
 }
